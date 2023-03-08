@@ -1,0 +1,17 @@
+{
+    "name": "Service Worker Test",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "service worker Test",
+    "permissions": [
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "src/background.js"
+    },
+    "action": {
+        "default_title": "Simple Test",
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    }
+}

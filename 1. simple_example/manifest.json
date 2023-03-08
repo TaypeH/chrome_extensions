@@ -1,0 +1,13 @@
+{
+    "name": "Simple Test",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Simple Test",
+    "action": {
+        "default_title": "Simple Test",
+        "default_popup": "popup.html",
+        "default_icon": {
+            "32": "icon.png"
+        }
+    }
+}
