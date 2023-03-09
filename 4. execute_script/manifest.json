@@ -1,0 +1,15 @@
+{
+    "name": "context menu Test",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "context menu script",
+    "permissions": [
+        "contextMenus"
+    ],
+    "background": {
+        "service_worker": "src/background.js"
+    },
+    "icons": {
+        "32": "icon.png"
+    }
+}
