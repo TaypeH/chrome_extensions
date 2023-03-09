@@ -1,0 +1,21 @@
+{
+    "name": "send message Test",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "send message script",
+    "permissions": [
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://www.first-service.com/",
+        "https://www.second-service.com/"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "Simple Test",
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    }
+}
