@@ -1,0 +1,14 @@
+{
+    "name": "downloader Test",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "downloader script",
+    "permissions": [
+        "downloads"
+    ],
+    "action": {
+        "default_title": "Simple Test",
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    }
+}

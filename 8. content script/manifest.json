@@ -1,0 +1,24 @@
+{
+    "name": "content script Test",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "content script script",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.wikipedia.org/*"
+            ],
+            "js": [
+                "src/matches.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://nory-soft.web.app/*"
+            ],
+            "js": [
+                "src/matches.js"
+            ]
+        }
+    ]
+}
